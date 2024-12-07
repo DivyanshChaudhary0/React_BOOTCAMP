@@ -5,22 +5,43 @@ const Page2 = () => {
   return (
     <div className="w-full px-16 py-6 ">
 
-      <div className="w-full flex items-center justify-between">
-        <div className="image w-[32%] h-[85vh] rounded-2xl">
+      <div className="w-full flex gap-6 items-center justify-between overflow-x-scroll">
+        <div className="image w-[30%] h-[85vh] rounded-2xl flex-shrink-0">
           <img
             className="w-full h-full object-cover rounded-[100px]"
             src="https://assets-global.website-files.com/6454cbf2dcc426c6ec47ef06/64b164fa9716bc66dcf4137e_ADEKWAAD_BrandBox-min-p-1080.webp"
             alt=""
           />
         </div>
-        <div className="image w-[32%] h-[85vh] rounded-2xl">
+        <div className="image w-[30%] h-[85vh] rounded-2xl flex-shrink-0">
           <img
             className="w-full h-full object-cover rounded-[100px]"
             src="https://assets-global.website-files.com/6454cbf2dcc426c6ec47ef06/64bfbdd62241c685d9999607_DM_Ashtray-min-p-1080.webp"
             alt=""
           />
         </div>
-        <div className="image w-[32%] h-[85vh] rounded-2xl">
+        <div className="image w-[30%] h-[85vh] rounded-2xl flex-shrink-0">
+          <img
+            className="w-full h-full object-cover rounded-[100px]"
+            src="https://assets-global.website-files.com/6454cbf2dcc426c6ec47ef06/64cc0eccc99b0aed7676e414_FL_Werkboek-cover_Nan-min-p-1080.webp"
+            alt=""
+          />
+        </div>
+        <div className="image w-[30%] h-[85vh] rounded-2xl flex-shrink-0">
+          <img
+            className="w-full h-full object-cover rounded-[100px]"
+            src="https://assets-global.website-files.com/6454cbf2dcc426c6ec47ef06/64b164fa9716bc66dcf4137e_ADEKWAAD_BrandBox-min-p-1080.webp"
+            alt=""
+          />
+        </div>
+        <div className="image w-[30%] h-[85vh] rounded-2xl flex-shrink-0">
+          <img
+            className="w-full h-full object-cover rounded-[100px]"
+            src="https://assets-global.website-files.com/6454cbf2dcc426c6ec47ef06/64bfbdd62241c685d9999607_DM_Ashtray-min-p-1080.webp"
+            alt=""
+          />
+        </div>
+        <div className="image w-[30%] h-[85vh] rounded-2xl flex-shrink-0">
           <img
             className="w-full h-full object-cover rounded-[100px]"
             src="https://assets-global.website-files.com/6454cbf2dcc426c6ec47ef06/64cc0eccc99b0aed7676e414_FL_Werkboek-cover_Nan-min-p-1080.webp"

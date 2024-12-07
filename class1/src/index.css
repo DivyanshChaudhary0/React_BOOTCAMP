@@ -23,6 +23,10 @@
     src: url(font5.woff2);
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 .rotate{
     animation: spin 10s linear infinite;
 }

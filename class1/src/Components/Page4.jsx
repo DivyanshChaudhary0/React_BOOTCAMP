@@ -9,7 +9,7 @@ const Page4 = () => {
         <div className="left w-1/2 h-full relative">
           <div className="group transition-all duration-[0.5s] ease-in-out w-full rounded-3xl relative overflow-hidden cursor-pointer hover:rounded-[140px]">
             <img
-              className="w-full h-[75vh] object-cover transition-all duration-500 ease-in-out hover:scale-110"
+              className="w-full h-[75vh] object-cover transition-all duration-500 ease-in-out group-hover:scale-110"
               src="page4-1.jpg"
               alt=""
             />
@@ -42,7 +42,7 @@ const Page4 = () => {
         <div className="right w-1/2 h-full relative">
           <div className="group transition-all duration-[0.5s] ease-in-out w-full rounded-3xl relative overflow-hidden cursor-pointer hover:rounded-[140px]">
             <img
-              className="w-full h-[95vh] object-cover transition-all duration-500 ease-in-out hover:scale-110"
+              className="w-full h-[95vh] object-cover transition-all duration-500 ease-in-out group-hover:scale-110"
               src="page4-3.jpg"
               alt=""
             />

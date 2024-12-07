@@ -19,10 +19,9 @@ const Page3 = () => {
         </div>
 
         <div className="image mt-20">
-           <div className='group relative w-full h-[80vh] transition-all duration-[0.4s] ease-out rounded-3xl hover:rounded-[160px] overflow-hidden'>
-           <img className='transition-all duration-[0.4s] ease-out object-cover cursor-pointer hover:scale-110' src="page3.jpg" alt=""
-            />
-            <img className=' transition-all duration-[0.6s] ease-out group-hover:opacity-100 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] rounded-[60px] opacity-0' src="bird.jpg" alt="" />
+           <div className='group relative w-full h-[90vh] rounded-3xl cursor-pointer overflow-hidden transition-all duration-[0.4s] ease-out hover:rounded-[150px]'>
+           <img className='w-full h-full group-hover:scale-110 transition-all duration-[0.4s] ease-out object-cover overflow-hidden' src="page3.jpg" alt=""/>
+            <img className=' transition-all duration-[0.6s] ease-out group-hover:opacity-100 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-[60px] opacity-0' src="bird.jpg" alt="" />
            </div>
         </div>
 

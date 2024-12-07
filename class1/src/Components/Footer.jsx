@@ -19,22 +19,22 @@ const Footer = () => {
 
         <div className="links flex gap-20">
             <div className="first flex flex-col gap-3">
-                <p className="text-xl mb-4">Socials</p>
-                <a className="uppercase text-xs" href="">Instagram</a>
-                <a className="uppercase text-xs" href="">Linkedein</a>
+                <p className="text-xl mb-4 font-serif">Socials</p>
+                <a className="uppercase text-xs font-[myFifthFont] hover:border-b-[1px]" href="">Instagram</a>
+                <a className="uppercase text-xs font-[myFifthFont] hover:border-b-[1px]" href="">Linkedein</a>
             </div>
             <div className="second flex flex-col gap-3">
-                <p className="text-xl mb-4">Sitemap</p>
-                <a className="uppercase text-xs" href="">Home</a>
-                <a className="uppercase text-xs" href="">Projecten</a>
-                <a className="uppercase text-xs" href="">Over</a>
-                <a className="uppercase text-xs" href="">Contact</a>
+                <p className="text-xl mb-4 font-serif">Sitemap</p>
+                <a className="uppercase text-xs font-[myFifthFont] hover:border-b-[1px]" href="">Home</a>
+                <a className="uppercase text-xs font-[myFifthFont] hover:border-b-[1px]" href="">Projecten</a>
+                <a className="uppercase text-xs font-[myFifthFont] hover:border-b-[1px]" href="">Over</a>
+                <a className="uppercase text-xs font-[myFifthFont] hover:border-b-[1px]" href="">Contact</a>
             </div>
             <div className="third flex flex-col gap-3">
-                <p className="text-xl mb-4">Info</p>
-                <a className="uppercase text-xs" href="">Algemene voorwaarden</a>
-                <a className="uppercase text-xs" href="">Privacybeleid</a>
-                <a className="uppercase text-xs" href="">Cookiebeleid</a>
+                <p className="text-xl mb-4 font-serif">Info</p>
+                <a className="uppercase text-xs font-[myFifthFont] hover:border-b-[1px]" href="">Algemene voorwaarden</a>
+                <a className="uppercase text-xs font-[myFifthFont] hover:border-b-[1px]" href="">Privacybeleid</a>
+                <a className="uppercase text-xs font-[myFifthFont] hover:border-b-[1px]" href="">Cookiebeleid</a>
             </div>
         </div>
       </div>

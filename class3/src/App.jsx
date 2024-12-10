@@ -1,6 +1,7 @@
 import Counter from "./Components/Counter";
 import Practice from "./Components/Practice";
 import Practice2 from "./Components/Practice2";
+import Practice3 from "./Components/Practice3";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <div>
         <Practice2/>
       </div>
+      <Practice3/>
     </div>
   )
 }

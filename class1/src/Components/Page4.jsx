@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "./Image";
 
 const Page4 = () => {
   return (
@@ -7,18 +8,10 @@ const Page4 = () => {
       <div className="w-full min-h-screen flex gap-6">
 
         <div className="left w-1/2 h-full relative">
-          <div className="group transition-all duration-[0.5s] ease-in-out w-full rounded-3xl relative overflow-hidden cursor-pointer hover:rounded-[140px]">
-            <img
-              className="w-full h-[75vh] object-cover transition-all duration-500 ease-in-out group-hover:scale-110"
-              src="page4-1.jpg"
-              alt=""
-            />
-            <img
-              className="group-hover:opacity-100 transition-all duration-[0.5s] ease-in-out absolute w-[350px] h-[350px] rounded-[60px] object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0"
-              src="page4-2.jpg"
-              alt=""
-            />
+          <div className="w-full h-[75vh]">
+            <Image bg="page4-1.jpg" center="page4-2.jpg" />
           </div>
+         
 
           <div className="w-full flex flex-col items-start gap-0 mt-6">
             <p className="text-base opacity-35 font-medium">Gaaf Creaties</p>
@@ -40,17 +33,8 @@ const Page4 = () => {
         </div>
 
         <div className="right w-1/2 h-full relative">
-          <div className="group transition-all duration-[0.5s] ease-in-out w-full rounded-3xl relative overflow-hidden cursor-pointer hover:rounded-[140px]">
-            <img
-              className="w-full h-[95vh] object-cover transition-all duration-500 ease-in-out group-hover:scale-110"
-              src="page4-3.jpg"
-              alt=""
-            />
-            <img
-              className="group-hover:opacity-100 transition-all duration-[0.5s] ease-in-out absolute w-[350px] h-[350px] rounded-[60px] object-cover top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0"
-              src="page4-4.jpg"
-              alt=""
-            />
+          <div className="w-full h-[95vh]">
+            <Image bg="page4-3.jpg" center="page4-4.jpg" />
           </div>
 
           <div className="w-full flex flex-col items-start gap-0 mt-6">

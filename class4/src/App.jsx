@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Card from "./Components/Card";
+import Form from "./Components/Form";
 
 function App() {
   const [name, setName] = useState("");
@@ -16,15 +17,23 @@ function App() {
     setDesc("");
   }
 
+  const handleDelete = (i)=>{
+    console.log(i);
+    const newArr = [...data];
+    newArr.splice(i,1);
+    // const newArr = data.filter((item,idx)=> idx!==i );
+    setData(newArr)
+  }
+
   return (
-    <div className="w-full h-screen flex flex-col ">
-      <form onSubmit={(e) => submitHandler(e)} className="w-full h-24 bg-slate-100 flex items-center justify-center">
+    <div className="w-full min-h-screen flex flex-col bg-gray-300 py-10">
+      <form onSubmit={(e) => submitHandler(e)} className="lg:w-[50%] w-full mx-auto flex flex-col items-center gap-4">
         <input
           value={name}
           onChange={(e) => setName(e.target.value)}
           type="text"
           placeholder="Enter name"
-          className="mr-4 border border-black px-4 py-2 rounded-md"
+          className="w-[80%] mr-4 border border-black px-4 py-2 rounded-md"
           required
         />
         <input
@@ -32,7 +41,7 @@ function App() {
           onChange={(e) => setImage(e.target.value)}
           type="text"
           placeholder="Enter URL"
-          className="mr-4 border border-black px-4 py-2 rounded-md"
+          className="w-[80%] mr-4 border border-black px-4 py-2 rounded-md"
           required
         />
         <input
@@ -40,23 +49,22 @@ function App() {
           onChange={(e) => setDesc(e.target.value)}
           type="text"
           placeholder="Enter description"
-          className="mr-4 border border-black px-4 py-2 rounded-md"
+          className="w-[80%] mr-4 border border-black px-4 py-2 rounded-md"
           required
         />
-        <button className="border border-black px-6 py-2 rounded-md">
+        <button className="w-[30%] border border-black bg-black text-base text-white px-6 py-2 rounded-md">
           Submit
         </button>
       </form>
 
-      <div className="px-10 py-6 flex flex-wrap gap-10 ">
+      <div className="px-10 py-10 flex items-center justify-center flex-wrap gap-10">
         {data &&
-          data.map(function (item) {
-            return (
-              <Card item={item}/>
-            );
-          })}
+          data.map((item, i) => (
+            <Card item={item} key={i} idx={i} handleDelete={handleDelete} />
+          ))}
       </div>
     </div>
+    // <Form/>
   );
 }
 
